@@ -18,7 +18,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Windows Server 2022
 - Windows 10 (21H2)
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Deployment</h2>
 
 Install Active Directory
 Login to DC-1 and install Active Directory Domain Services
