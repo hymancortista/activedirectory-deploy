@@ -2,13 +2,9 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Deploying & Configuration of Active Directory in Azure</h1>
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -30,7 +26,7 @@ Login to DC-1 and install Active Directory Domain Services
 <img width="543" height="545" alt="image" src="https://github.com/user-attachments/assets/7e251b29-191e-4a6d-a665-a87b4a9da2cb" />
 
 
-Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+Promote as a DC: Setup a new forest as mydomain.com<br />
 Restart and then log back into DC-1 as user: mydomain.com\labuser
 
 <img width="361" height="447" alt="image" src="https://github.com/user-attachments/assets/0731e9ad-d94b-4ce3-8b4e-0d107a7423c8" />
@@ -88,15 +84,4 @@ Allow “domain users” access to remote desktop
 
 
 
-You can now log into Client-1 as a normal, non-administrative user now
-Normally you’d want to do this with Group Policy that allows you to change MANY systems at once (maybe a future lab)
-
-
-Create a bunch of additional users and attempt to log into client-1 with one of the users
-—
-Login to DC-1 as jane_admin
-Open PowerShell_ise as an administrator
-Create a new File and paste the contents of the script into it
-Run the script and observe the accounts being created
-When finished, open ADUC and observe the accounts in the appropriate OU　(_EMPLOYEES)
-attempt to log into Client-1 with one of the accounts (take note of the password in the script)
+You can now log into Client-1 as a normal, non-administrative user 
