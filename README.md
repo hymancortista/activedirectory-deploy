@@ -2,8 +2,8 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>Deploying & Configuration of Active Directory in Azure</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+<h1>Deployment of Active Directory in Azure</h1>
+This tutorial outlines how to setup an Active Directory in the Domain Controller<br />
 
 
 <h2>Environments and Technologies Used</h2>
