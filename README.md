@@ -69,20 +69,25 @@ Login to Client-1 as the original local admin (labuser) and join it to the domai
 
 
 Login to the Domain Controller and verify Client-1 shows up in ADUC
+
+<img width="481" height="384" alt="image" src="https://github.com/user-attachments/assets/e3a9a16f-c3a6-465f-be49-e72a4eb1c777" />
+
+
 Create a new OU named “_CLIENTS” and drag Client-1 into there
 
-Finish the lab, but do not delete the VMs in Azure. We will use them for upcoming labs.
-If you are done for the day and want to save money, simply “Stop”/turn off the VMs within the Azure Portal
+<img width="389" height="350" alt="image" src="https://github.com/user-attachments/assets/9e9ea1d8-0494-43a7-a6ab-4e24f2ea94fe" />
 
-Part 2
 
-Turn on the DC-1 and Client-1 VMs in the Azure Portal if they are off.
-Setup Remote Desktop for non-administrative users on Client-1
-—
+
 Log into Client-1 as mydomain.com\jane_admin
 Open system properties
 Click “Remote Desktop”
 Allow “domain users” access to remote desktop
+
+<img width="365" height="316" alt="image" src="https://github.com/user-attachments/assets/1dc0d01b-50bf-4400-8269-1ddad0213c3b" />
+
+
+
 You can now log into Client-1 as a normal, non-administrative user now
 Normally you’d want to do this with Group Policy that allows you to change MANY systems at once (maybe a future lab)
 
